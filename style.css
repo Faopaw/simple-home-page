@@ -1,0 +1,131 @@
+body {
+    background-color: #282C34;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    font-size: 100;
+    opacity: 1;
+    letter-spacing: 15px;
+    color: #FFFFFF;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.buttons button {
+    margin: 24 24;
+    border-radius: 5px;
+    font-size: 22;
+    color: #707070;
+}
+
+#flooblesearch {
+    width: 258px;
+    height: 72px;
+    
+}
+
+#showmethemoney {
+    width: 258px;
+    height: 72px;
+}
+
+.springgreen {
+    color: #3BB99B;
+}
+
+#searchbar {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 851px;
+    height: 66px;
+    opacity: 1;
+    -webkit-text-stroke-color: #707070;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+#searchinput {
+    width: 751px;
+    max-height: max-content;
+    border: none;
+}
+
+#searchicon {
+    width: 51px;
+    height: 51px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 22px;
+}
+
+#microphoneicon {
+    
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: 22px;
+}
+
+i {
+    width: 51px;
+    height: 51px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: 22px;
+}
+
+nav {
+    background-color: #282C34;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+}
+#topnav a {
+    color: #FFFFFF;
+    font-size: 18;
+    text-align: center;
+    text-decoration: none;
+    padding: auto 16px;
+} 
+
+li {
+    list-style-type:none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    text-decoration: none;
+    padding: 2vw;
+}
+
+ul {
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+}
